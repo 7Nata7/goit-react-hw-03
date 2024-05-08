@@ -1,0 +1,34 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border: solid rgb(13, 34, 15);
+  padding: 15px;
+  width: 290px;
+}
+
+.label {
+  color: rgb(13, 34, 15);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.input {
+  background-color: rgb(232, 228, 223);
+  width: 280px;
+  height: 30px;
+  padding: 0;
+}
+
+button {
+  display: block;
+  margin-top: 20px;
+  background-color: rgb(17, 92, 57);
+  color: rgb(244, 241, 236);
+}
+
+.add_btn {
+  width: 284px;
+  height: 34px;
+  margin-left: 0;
+}
