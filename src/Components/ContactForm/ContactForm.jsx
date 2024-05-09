@@ -62,11 +62,7 @@ export default function ContactForm({ addContact }) {
           <div className={css.error}>{formik.errors.number}</div>
         )}
       </label>
-      <button
-        className={css.add_btn}
-        type="submit"
-        onClick={formik.handleSubmit}
-      >
+      <button className={css.add_btn} type="submit">
         Add contact
       </button>
     </form>
